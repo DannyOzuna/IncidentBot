@@ -1,0 +1,31 @@
+﻿{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "small",
+      "weight": "Bolder",
+      "text": "Para verificar su cumplimiento, horas aprobada, horas faltantes, y multas, marque 1, para preguntas de orientación general, marque 2."
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.3",
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "1",
+      "id": "1",
+      "data": {
+        "type": "1"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "2",
+      "id": "2",
+      "data": {
+        "type": "2"
+      }
+    }
+  ]
+}
